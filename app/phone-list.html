@@ -1,0 +1,18 @@
+<div ng-controller="PhoneListCtrl">
+    <!--<p>Hello, {{name}}</p>-->
+    <div class="col-md-2">
+      Search: <input ng-model="query">
+    </div>
+    <div class="col-md-10">
+      <ul class="phones">
+        <li ng-repeat="phone in phones | filter:query | orderBy:orderProp">
+          <a href="#/detail/{{phone.id}}" class="phone-listing">
+            <img class="thumb" ng-src="{{phone.imageUrl}}" alt="{{phone.name}}">
+          </a>
+          <!--{{phone.name}}-->
+           <a href="#/detail/{{phone.id}}">{{phone.name}}</a>
+          <p>{{phone.snippet}}</p>
+        </li>
+      </ul>
+    </div>
+  </div>
