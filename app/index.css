@@ -1,0 +1,12 @@
+.col-md-2{
+    margin-left: 0px;
+    margin-top: 40px;
+    color: orangered;
+}
+.col-md-10{
+    margin-left: 240px;
+}
+.thumb{
+    width: 100px;
+    height: 80px;
+}
