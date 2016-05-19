@@ -2,7 +2,7 @@
 (function () {
   "use strict";
 
-  angular.module('phoneListApp', ['myServices'])
+  angular.module('phonecatApp')
     // 1.controller('PhoneListCtrl', function ($scope) {
     //   $scope.name = "World";
     //   $scope.phones = [

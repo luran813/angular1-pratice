@@ -1,10 +1,6 @@
 (function(){
   'use strict';
-  angular.module('phoneDetailApp',[
-      'ngRoute',
-      'myFilter',
-      'myServices'
-  ])
+  angular.module('phonecatApp')
     .controller('PhoneDetailCtrl', ['$scope', '$routeParams', 'phoneService',//'$http',
     //   function($scope, $routeParams, $http) {  使用http访问json文件内容
     //     $http.get($routeParams.phoneId + '.json').success(function(data) {

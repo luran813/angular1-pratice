@@ -4,8 +4,6 @@
   angular
     .module('phonecatApp', [
       'myRoute',
-      'phoneListApp',
-      'phoneDetailApp',
       'myFilter',
       'myServices',
       'myAnimations'
